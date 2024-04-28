@@ -1,0 +1,126 @@
+
+/* ------------------------------ NAV BAR ---------------------------------- */
+
+.logo-group {
+  padding-right: 50px;
+  margin-top: 11px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-top: -12px;
+}
+
+.logo-heading {
+  font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #159144;
+    color: white;
+  }
+
+  /* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+      
+    font-size: 17px;
+  }
+  
+
+.search_bar {
+  float: right;
+  padding-right: 20px;
+  padding-top: 7px;
+}
+
+  
+
+/* ------------------------------ Index - Body ---------------------------------- */
+
+.Welcome-text {
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 700px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.Welcome-text2 {
+    text-align: center;
+    padding-left:80px;
+    font-size: 90px;
+}
+
+.lets-shop-btn {
+    margin-right: 230px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+/* ------------------------------ Dashboard ---------------------------------- */
+
+.dashboard-padding {
+    padding-top: 35px;
+    padding-left: 30px;
+   
+}
+
+
+
+.card {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: black;
+}
+
+.link-card {
+  text-decoration: none !important;
+}
+
+.link-card:hover .card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box shadow to cards on hover */
+  transform: scale(1.05); /* Scale up the cards on hover */
+}
+
+
+/* ------------------------------ Other  ---------------------------------- */
+
+.go-back-btn {
+  margin-top: 50px;
+}
